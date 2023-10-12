@@ -1661,3 +1661,31 @@ blockquote::before {
   }
 }
 
+.resize {
+  height: 300px;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+} */
+
+.resize {
+  height: 300px; /* Set the desired height */
+  overflow: hidden; /* Hide the extra length */
+  position: relative; /* Position the image within the container */
+}
+
+.resize img {
+  width: 100%; /* Allow the width to adjust proportionally */
+  height: 100%; /* Take up the full height of the container */
+  object-fit: cover; /* Crop the image to fit the container */
+  object-position: top; /* Start the image from the top */
+}
+
+.senta img {
+  object-position: center;
+}
