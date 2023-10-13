@@ -783,7 +783,7 @@ strong {
   NEWS         
 -----------------------------------------*/
 .news-detail-header-section {
-  background-image: url('../images/news/close-up-volunteer-oganizing-stuff-donation.jpg');
+  background-image: url('../images/team/team7.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1665,14 +1665,6 @@ blockquote::before {
   height: 300px;
 }
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-} */
-
 .resize {
   height: 300px; /* Set the desired height */
   overflow: hidden; /* Hide the extra length */
@@ -1688,4 +1680,10 @@ blockquote::before {
 
 .senta img {
   object-position: center;
+}
+
+.baton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
