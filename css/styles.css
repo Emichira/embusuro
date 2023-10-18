@@ -207,6 +207,7 @@ strong {
   position: relative;
   overflow: hidden;
   transition: all 0.5s;
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.175);
 }
 
 .custom-block-wrap:hover {
@@ -1692,4 +1693,14 @@ blockquote::before {
   .resaiz {
     font-size: 32px;
   }
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card {
+  flex: 1 0 auto;
 }
